@@ -10,10 +10,10 @@ export default {
       validation: Rule => Rule.required(),
     },
     {
-      title: "Item Type",
-      name: "type",
+      title: "Category",
+      name: "category",
       type: "string",
-      options: { list: ['necklace', 'bracelet', 'earrings'] },
+      options: { list: ['Necklaces', 'Bracelets', 'Earrings'] },
       validation: Rule => Rule.required(),
     },
     {
