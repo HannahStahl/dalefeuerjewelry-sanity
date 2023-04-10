@@ -17,6 +17,12 @@ export default {
       validation: Rule => Rule.required(),
     },
     {
+      title: "Collection (if any)",
+      name: "collection",
+      type: "string",
+      options: { list: ['Luxe Cuffs'] },
+    },
+    {
       title: "Price",
       name: "price",
       type: "number",
